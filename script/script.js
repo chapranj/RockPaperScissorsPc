@@ -90,7 +90,12 @@ function ifContinue() {
         ", computer score: " +
         compScore;
     }
+    compScore=0;
+    playerScore=0;
+    playerScoreElement.innerHTML=playerScore;
+    compScoreElement.innerHTML=compScore;
   }
+  
 }
 function clearAll() {
   playerScoreElement.innerHTML = "";
