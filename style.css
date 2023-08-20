@@ -1,7 +1,6 @@
 body{
-    background-color:rgba(80, 80, 84, 0.91);
-    color: white;
-
+    background-color:darkgray;
+    color: black;
 }
 
 .makeSelection{
@@ -51,7 +50,4 @@ body{
 #clear:hover{
     padding: 15px;
 
-}
-.finalR{
-    color: white;
 }

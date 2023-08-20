@@ -19,7 +19,9 @@
                 <hr>
                 <li>Press any of the options below(✊- for ROCK, 🖐️- for PAPER, ✌️-  for SCISSORS )</li>
                 <li>Once you choose, the computer choice will be shown by increasing the size of the choice image.</li>
-                <li>To start the game, press any of the choices, Best of Luck!</li>
+                <li>You can start the Game by pressing any of the choices</li>
+                <li>Once you press, the computer will choose its choice and a score will be kept running..</li>
+                <li>To end the game, press cancel on the confirm box and see the results.</li>
             </ul>
         </h3>
     </div>
@@ -34,11 +36,13 @@
             YOU:
             <span id="resultScorePlayer">0</span>
             <span id="playerChoseDisplay"></span>
+            <span id="playerWon"></span>
         </div>
         <div class="scores">
             COMPUTER:
             <span id="resultScoreComp">0</span>
             <span id="compChoseDisplay"></span>
+            <span id="compWon"></span>
             <!-- add a function that shows what the computer choice was. -->
         </div>
 
@@ -46,6 +50,7 @@
     <div class="finalResult">
         <p>Final Result:<span id="finalR"></span></p>
     </div>
+
     <button id="clear" onclick="clearAll()">Reset</button>
     <script src="script/script.js"></script>
 </body>
